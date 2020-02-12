@@ -11,7 +11,7 @@ The rules of Fizbuzz are as follows:
  
 A program to play Fizbuzz can be written as follows:
  
-<code>from general_counting_game import GeneralCountingGame
+<pre><code>from general_counting_game import GeneralCountingGame
 
 
 class ModGame(GeneralCountingGame):
@@ -20,6 +20,6 @@ class ModGame(GeneralCountingGame):
         return n % num == 0
         
 
-fiz_buzz_player = ModGame((("fiz", 3), ("buzz", 5)))</code>
+fiz_buzz_player = ModGame((("fiz", 3), ("buzz", 5)))</code></pre>
 
 Full details for how these games work and how to create them, can be found in both the main and test files.
