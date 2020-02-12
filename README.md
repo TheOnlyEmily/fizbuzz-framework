@@ -1,6 +1,6 @@
 # fizbuzz-framework
 
-A simple library for designing programs to play Fizbuzz and similar counting games. 
+A simple library for designing programs to play Fiz Buzz and similar counting games. 
 
 The rules of Fiz Buzz are as follows:
 
