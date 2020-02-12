@@ -4,7 +4,7 @@ from fizbuzz_generator import fiz_buzz
 
 
 def test_generator_up_to_15():
-    fb_list = [r for r in fiz_buzz(16)]
+    fb_list = [r for r in fiz_buzz.game_sequence(16)]
 
     assert fb_list[0] == 1
     assert fb_list[1] == 2
