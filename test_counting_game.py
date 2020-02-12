@@ -1,9 +1,19 @@
 import pytest
 
-from fizbuzz_generator import fiz_buzz
+from general_counting_game import GeneralCountingGame
 
 
 def test_generator_up_to_15():
+
+
+    class ModCountingGame(GeneralCountingGame):
+
+        def add_phrase(self, n, num):
+            return n % num == 0
+
+
+    fiz_buzz = ModCountingGame((("fiz", 3), ("buzz", 5)))
+
     fb_list = [r for r in fiz_buzz.game_sequence(16)]
 
     assert fb_list[0] == 1
