@@ -2,14 +2,14 @@
 
 A simple library for designing programs to play Fizbuzz and similar counting games. 
 
-The rules of Fizbuzz are as follows:
+The rules of Fiz Buzz are as follows:
 
    1. A player starts counting up from 1.
    1. When the player reaches a number divisible by 3, they say "fiz", instead of that number.
    1. When the player reaches a number divisible by 5, they say "buzz". 
    1. When the player reaches a number divisible by both 3 and 5, they say "fizbuzz".
  
-A program to play Fizbuzz can be written as follows:
+A program to play Fiz Buzz can be written as follows:
  
 <pre><code>from general_counting_game import GeneralCountingGame
 
